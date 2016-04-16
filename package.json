@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/josiperic/infozona-web/issues"
   },
-  "homepage": "https://github.com/josiperic/infozona-web#readme"
+  "homepage": "https://github.com/josiperic/infozona-web#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
 }
