@@ -2,10 +2,6 @@
   "name": "infozona-web",
   "version": "1.0.0",
   "description": "Web za infozonu",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josiperic/infozona-web.git"
@@ -14,12 +10,9 @@
     "infozona"
   ],
   "author": "Josip Peric",
-  "license": "ISC",
+  "private": true,
   "bugs": {
     "url": "https://github.com/josiperic/infozona-web/issues"
   },
-  "homepage": "https://github.com/josiperic/infozona-web#readme",
-  "devDependencies": {
-    "webpack": "^1.13.0"
-  }
+  "homepage": "https://github.com/josiperic/infozona-web#readme"
 }
