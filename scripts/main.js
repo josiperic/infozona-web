@@ -2,5 +2,5 @@
 
 (function(){
     // code goes here
-    console.log('loaded script');   
+    console.log('loaded script');
 })();

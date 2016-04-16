@@ -14,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/josiperic/infozona-web/issues"
   },
-  "homepage": "https://github.com/josiperic/infozona-web#readme"
+  "homepage": "https://github.com/josiperic/infozona-web#readme",
+  "devDependencies": {
+    "livereloadx": "^0.3.9"
+  },
+  "scripts": {
+    "live": "livereloadx -s -p 3030 ."
+  }
 }
