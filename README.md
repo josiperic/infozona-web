@@ -1,3 +1,3 @@
 # infozona-web
 
-Web za infozonu
+Web za infozonu.
