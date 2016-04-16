@@ -2,6 +2,8 @@
   "name": "infozona-web",
   "version": "1.0.0",
   "description": "Web za infozonu",
+  "author": "Josip Peric",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josiperic/infozona-web.git"
@@ -9,8 +11,6 @@
   "keywords": [
     "infozona"
   ],
-  "author": "Josip Peric",
-  "private": true,
   "bugs": {
     "url": "https://github.com/josiperic/infozona-web/issues"
   },

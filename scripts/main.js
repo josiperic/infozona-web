@@ -1,6 +1,6 @@
 'use strict';
 
 (function(){
-// code goes here
-console.log('loaded script');   
+    // code goes here
+    console.log('loaded script');   
 })();
