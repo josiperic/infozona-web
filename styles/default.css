@@ -76,10 +76,11 @@ body {
     display: flex;
     justify-content: center;
     max-width: 960px;
-    height: 1800px;
+    height: auto;
 }
 
 .content{
+    flex-direction: row;
     background-color: green;
 }
 
@@ -108,23 +109,34 @@ body {
 /* CONTENT main news i sub news */
 
 .content-main{
-    max-width:75%;
+    min-width:65%;
+    max-width:98%;
     margin:1%;
-    height:600px;
+    height:auto;
     display:flex;
     justify-content:flex-start;
     align-items:center;
     flex-direction: column;
     background-color:white;
 }
+.main{
+    flex-wrap: wrap;
+    height:50%;
+    background-color:violet;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
 .main-news{
     display:flex;
     margin:1%;
-    max-width:90%;
-    height:60%;
+    min-width:200px;
+    max-width:98%px;
+    height:400px;
     background-color:black;
 }
 .sub{
+    flex-wrap: wrap;
     height:50%;
     background-color:violet;
     display:flex;
@@ -134,15 +146,33 @@ body {
 .sub-news{
     display:flex;
     margin:1%;
-    max-width:44%;
-    height:80%;
+    min-width:330px;
+    max-width:45%;
+    height:240px;
     background-color:olive;
     
 }
 
 /*kalendarcic */
-
-
+.main-calendar{
+    min-width:15%;
+    max-width:98%;
+    margin:1%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:white;
+}
+.calendar-content-main{
+    min-width:200px;
+    max-width:30%;
+    height:200px;
+    display:flex;
+    margin:5pt;
+    background-color:black;
+}
 
 
 
