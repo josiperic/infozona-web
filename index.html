@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <title>title</title>
     <link rel="stylesheet" href="./styles/default.css">
-    <script src="./scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,6 +15,8 @@
     <!-- HEADER -->
     <div class="header-container">
         <div class="header">
+            <a href="#" class="header-toggle"></a>
+
             <div class="header-logo">
                 <h1>InfoZona</h1>
             </div>
@@ -41,20 +44,14 @@
         <div class="content">
             <div class="content-toolbar">
                 <div class="items">
-                 <h1>Vijesti/Linkovi/Svi tekstovi</h1>
+                    <h1>Vijesti/Linkovi/Svi tekstovi</h1>
                 </div>
                 <div class="search">
-<div class="Field Field--is-search">
-  <input
-    type="search"
-    name="search"
-    placeholder="Vijesti..."
-    class="SearchBox-query"/>
+                    <div class="Field Field--is-search">
+                        <input type="search" name="search" placeholder="Vijesti..." class="SearchBox-query" />
 
-  <button
-    type="submit"
-    class="Btn SearchBox-submitBtn">Search</button>
-</div>
+                        <button type="submit" class="Btn SearchBox-submitBtn">Search</button>
+                    </div>
                 </div>
             </div>
 
@@ -64,7 +61,7 @@
                         <img src="../images/content-slike/newyork.jpg">
                         <h1>New York!</h1>
                         <p>Putujte u New York s pobjedom na natječaju!</p>
-                       
+
                     </div>
                     <div class="sub">
                         <div class="sub-news">
@@ -119,6 +116,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./scripts/main.js"></script>
 
 </body>
 
