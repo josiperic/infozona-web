@@ -16,9 +16,13 @@
   },
   "homepage": "https://github.com/josiperic/infozona-web#readme",
   "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.0",
     "livereloadx": "^0.3.9"
   },
   "scripts": {
-    "live": "livereloadx -s -p 3030 ."
+    "live": "livereloadx -s -p 3030 .",
+    "css": "gulp css"
   }
 }

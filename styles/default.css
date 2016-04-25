@@ -8,7 +8,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 55px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     background-image: url("../images/pattern/shattered.png");
     background-repeat: repeat;
 }
@@ -23,6 +24,8 @@ body {
     display: flex;
     justify-content: center;
     position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     top:0px;
 }
 
@@ -45,6 +48,27 @@ body {
     width:130px;
     height: 40px;
 }
+.header-facebook{
+    background-image: url("../images/face.png");
+    background-repeat:no-repeat;
+    background-size: 30px 30px;
+     display:flex;
+    width:30px;
+    height: 30px;
+}
+.header-twitter{
+    background-image: url("../images/twit.jpg");
+    background-repeat:no-repeat;
+    background-size: 28px 28px;
+    margin-top:3%;
+    display:flex;
+    width:30px;
+    height: 30px;
+}
+.header-social a {
+    display: none;
+    
+}
 
 .header-logo h1 {
     display: none;
@@ -58,14 +82,27 @@ body {
 .header-navigation ul {
     list-style-type: none;
     text-decoration: none;
+    color:black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
-
+.header-navigation ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
 .header-social {
-    flex-basis:15%;
+    flex-basis:9%;
+    display:flex;
+    flex-direction:row;
 }
 
 .header-social ul {
@@ -76,7 +113,20 @@ body {
     justify-content: space-between;
     width: 100%;
 }
-
+/* SVI LINKOVI */
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            grey;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  } 
 /* CONTENT */
 
 .content-container {
@@ -84,6 +134,8 @@ body {
     display: flex;
     justify-content: center;
     max-width: 960px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     height: auto;
 }
 
@@ -115,6 +167,8 @@ body {
      
  }
  .items h1{
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
      margin-left:5%;
      font-size:20px;
      display:flex;
@@ -132,19 +186,19 @@ body {
 }
 
 .SearchBox-query {
-font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
   flex: 1 0 9em;
   font-size:18px;
 }
 
 .SearchBox-submitBtn {
   width:20%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size:18px;
 }
 
 .Field--is-search:before {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   flex: 0 0 0.2em;
 
 }
@@ -160,14 +214,12 @@ font-family: 'Raleway', sans-serif;
     justify-content:flex-start;
     align-items:center;
     flex-direction: column;
-    background-image: url("../images/pattern/shattered.png");
-    background-repeat: repeat;
+    background-color:white;
 }
 .main{
     flex-wrap: wrap;
     height:auto;
-    background-image: url("../images/pattern/shattered.png");
-    background-repeat: repeat;
+    background-color:white;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -187,6 +239,8 @@ font-family: 'Raleway', sans-serif;
     height:20%;
 }
 .main-news h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
     margin:2%;
     display:flex;
    }
@@ -200,8 +254,10 @@ font-family: 'Raleway', sans-serif;
 .sub{
     flex-wrap: wrap;
     height:auto;
-    background-image: url("../images/pattern/shattered.png");
-    background-repeat: repeat;
+    background-color:white;
+    border-top:10px solid lightgray;
+    border-bottom:10px solid lightgray;
+    
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -222,6 +278,8 @@ font-family: 'Raleway', sans-serif;
     height:20%;
 }
 .sub-news h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
     margin:2%;
     display:flex;
    }
@@ -234,24 +292,78 @@ font-family: 'Raleway', sans-serif;
 /*kalendarcic */
 .main-calendar{
     min-width:15%;
-    max-width:98%;
-    margin:1%;
+    max-width:100%;
     height:auto;
     display:flex;
     justify-content:center;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color:white;
-}
-.calendar-content-main{
-    min-width:200px;
-    max-width:30%;
-    height:auto;
-    display:flex;
-    margin:5pt;
-    background-color:black;
+    background-image: url("../images/pattern/shattered.png");
+    background-repeat: repeat;  
 }
 
+.main-calendar h2{
+    font-family: 'Playfair Display', serif;
+    margin-left:20px;
+    font-weight: 300;
+    font-size:19px;
+    display:flex;
+        flex-direction: column;
+        
+}
+.main-calendar p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left:10%;
+    font-weight: 300;
+    font-size:14px;
+    display:flex;
+        flex-direction: column;
+    
+}
+
+.calendar-content-main{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    min-width:200px;
+    border-left:10px solid darkorange;
+    max-width:30%;
+    min-height:100px;
+    height:auto;
+    margin:5pt;
+    background-color:white;
+}
+.calendar-content-main-art{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    min-width:200px;
+    display:flex;
+    flex-wrap: wrap;
+    border-left:10px solid purple;
+    max-width:30%;
+    min-height:100px;
+    height:auto;
+    margin:5pt;
+    background-color:white;
+}
+.calendar-content-main-rest{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    min-width:200px;
+    display:flex;
+    flex-wrap: wrap;
+    border-left:10px solid green;
+    max-width:30%;
+    min-height:100px;
+    height:auto;
+    margin:5pt;
+    background-color:white;
+}
 
 
 /* FOOTER */
